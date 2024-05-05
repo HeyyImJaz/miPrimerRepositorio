@@ -2,7 +2,7 @@ body{
     height: auto;
     min-height: 720px;
     width: screen;
-    margin: 1;
+    margin: 0;
     padding: 0;
     display: flex;
     flex-wrap: wrap;
