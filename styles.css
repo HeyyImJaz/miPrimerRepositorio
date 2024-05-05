@@ -1,0 +1,50 @@
+body{
+    height: auto;
+    min-height: 720px;
+    width: screen;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: blueviolet;
+    align-items: center;
+    justify-content: center;
+}
+
+body * {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.login-container {
+    width: screen;
+    border: solid 1px black;
+    background: rgb(255, 255, 255);
+    border-radius: 20px;
+}
+
+#formularioTonto {
+    width: 100%;
+    flex-direction: column;
+    gap: 10px;
+}
+
+div{
+    height: auto;
+    width: 400px;
+    padding: 20px;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+#saludo {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
